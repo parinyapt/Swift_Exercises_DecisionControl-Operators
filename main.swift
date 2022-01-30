@@ -24,3 +24,31 @@ if(yearAD > 2012){
 }
 
 print("\(yearBE) is \(genaration)")
+
+
+/////////////// Pseudo Code ///////////////
+/*
+Begin
+  Output "====== Generation ======"
+  Output "Enter Year of Birth (BE) : "
+  Input yearBE
+  yearAD = yearBE - 543
+  genaration = ""
+  
+  If (yearAD > 2012) Then
+    genaration = "Gen A"
+  Else If (yearAD >= 1997) Then
+    genaration = "Gen Z"
+  Else If (yearAD >= 1981) Then
+    genaration = "Gen Y"
+  Else If (yearAD >= 1965) Then
+    genaration = "Gen X"
+  Else If (yearAD >= 1946) Then
+    genaration = "Baby Boomer"
+  Else
+    genaration = "Error Unknown Generation"
+  End If
+  
+  Output yearBE + " is " + genaration
+End
+*/
